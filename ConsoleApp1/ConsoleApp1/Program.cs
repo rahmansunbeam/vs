@@ -42,7 +42,7 @@ namespace HelloWorld
 
             public Tuple<int, int, string> calc2(int x, int y, int z)
             {
-                return Tuple.Create((x * y + z), (x * y + x * z), ((x % 2 == 1) ? "...it is" : "...no it's not"));
+                return Tuple.Create((x * y + z), (x * y + x * z), ((x % 2 == 0) ? "...it is" : "...no it's not"));
             }
         }
 
